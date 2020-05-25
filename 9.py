@@ -1,0 +1,7 @@
+f=open("C:/123.py","r")
+str=f.read()
+h=open("C:/ndkm.py","r")
+str=h.read()
+a=sum(f,h)
+str=a.read()
+print('noi dung file là:\n',str)
